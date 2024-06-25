@@ -9,13 +9,13 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -47,10 +47,11 @@ ol {
   flex-direction: row;
   align-items: end;
   gap: 30px;
-  width: 1140px ;
+  width: 1140px;
 }
 
 .content__list {
+  position: relative;
   height: 298px;
   overflow: auto;
 }
@@ -65,6 +66,7 @@ ol {
   height: 100%;
 }
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -85,7 +87,7 @@ ol {
 }
 .content__video-card-thumbnail {
   width: 194px;
-  height: 103px; 
+  height: 103px;
 }
 .content__video-card-description-container {
   width: 100%;
