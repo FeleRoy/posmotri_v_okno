@@ -28,3 +28,5 @@
 * CSS3
 * JavaScript
 * Методология БЭМ
+
+[![Tech](https://skillicons.dev/icons?i=html,css,js&theme=light)](https://skillicons.dev)
